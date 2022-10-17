@@ -1,3 +1,6 @@
+### Links
+https://applescan.github.io/Dice-Generator/
+
 ### As a user I can:
 - Pick a number of dice 
 - Roll the dice
