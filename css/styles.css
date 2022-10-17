@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+html {
+    background: url('../images/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    padding: 0;
+    color: #303035;
+    line-height: 1.4;
+    max-height: 100vh;
+    text-align: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+button {
+    background-color: #FB5A48;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    font-weight: 500px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    background-image: url('../images/dicex.png');
+    background-size: cover;
+    background-color: rgba(225, 225, 225, 0);
+    border: 0px;
+    width: 180px;
+    height: 180px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #FB5A48;
+    height: 50px;
+}
+
+.footer>p,
+a {
+    font-weight: 900px;
+    font-size: 15px;
+    color: white;
+}
+
+p {
+    font-weight: 500px;
+    font-size: 20px;
+    color: #303035;
+}
+
+#dice6,
+#dice10,
+#dicex {
+    font-weight: 500px;
+    font-size: 50px;
+    color: #303035;
+}
+
+.dicesResults,
+.dicesButtons {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button6 {
+    width: 180px;
+    height: 180px;
+    background-image: url('../images/dice6.png');
+    background-size: cover;
+    background-color: rgba(225, 225, 225, 0);
+}
+
+.button10 {
+    width: 180px;
+    height: 180px;
+    background-image: url('../images/dice10.png');
+    background-size: cover;
+    background-color: rgba(225, 225, 225, 0);
+}
+
+.buttonx {
+    height: 40px;
+    width: 100px;
+}
+
+.button10:focus,
+.button10:hover,
+.button6:focus,
+.button6:hover,
+.buttonx:focus,
+.buttonx:hover{
+  animation: wiggle 2s linear infinite;
+}
+
+
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
