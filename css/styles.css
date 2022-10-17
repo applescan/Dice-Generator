@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
 html {
-    background: url('/Dice-Generator/images/bg.png') no-repeat center center fixed;
+    background: url('/images/bg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ input {
     font-size: 35px;
     color: #fff;
     text-align: center;
-    background-image: url('/Dice-Generator/images/dicex.png');
+    background-image: url('/images/dicex.png');
     background-size: cover;
     background-color: rgba(225, 225, 225, 0);
     border: 0px;
@@ -100,7 +100,7 @@ p {
 .button6 {
     width: 180px;
     height: 180px;
-    background-image: url('/Dice-Generator/images/dice6.png');
+    background-image: url('/images/dice6.png');
     background-size: cover;
     background-color: rgba(225, 225, 225, 0);
 }
@@ -108,7 +108,7 @@ p {
 .button10 {
     width: 180px;
     height: 180px;
-    background-image: url('/Dice-Generator/images/dice10.png');
+    background-image: url('/images/dice10.png');
     background-size: cover;
     background-color: rgba(225, 225, 225, 0);
 }
